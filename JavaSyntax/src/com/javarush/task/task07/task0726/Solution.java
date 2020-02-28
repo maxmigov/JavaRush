@@ -20,6 +20,7 @@ public class Solution {
             
             if (name == null || name.isEmpty()) {
                 break;
+                
             }else {
                 int age = Integer.parseInt(reader.readLine());
                 int weight = Integer.parseInt(reader.readLine());
