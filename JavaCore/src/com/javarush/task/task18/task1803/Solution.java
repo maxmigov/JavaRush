@@ -26,14 +26,7 @@ public class FrequentBytesWithMap {
                                   .collect(Collectors.groupingBy(
                                    Function.identity(), Collectors.counting()));
                                    
-        Long max = 0L;
-        for (Map.Entry<Integer, Long> entry : freq.entrySet()) {
-            Long value = entry.getValue();
-            if (value > max) {
-                max = 0L;
-                max += value;
-            }
-        }
+        Long max = Collections.max(freq.values());
         
         for (Map.Entry<Integer, Long> entry : freq.entrySet()) {
             if (entry.getValue().equals(max)) {
