@@ -13,7 +13,7 @@ public class Solution {
         FileReader reader = new FileReader(bufferedReader.readLine());
         FileWriter writer = new FileWriter(bufferedReader.readLine());
         bufferedReader.close();
-        //"C:/Users/maxmi/Documents/text.txt"
+        //"C:/Users/__your_pc_name__/Documents/text.txt"
         int i = 0;
         int symbol;
             while (reader.ready()) {
