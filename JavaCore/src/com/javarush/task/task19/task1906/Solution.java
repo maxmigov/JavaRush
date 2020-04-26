@@ -8,7 +8,6 @@ import java.io.*;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        InputStream in;
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         FileReader reader = new FileReader(bufferedReader.readLine());
         FileWriter writer = new FileWriter(bufferedReader.readLine());
