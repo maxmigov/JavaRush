@@ -52,7 +52,7 @@ public class Solution {
                     "(\\d{3})(\\d{3})(\\d{2})(\\d{2})",
                     "($1)$2-$3-$4"
             );
-        // Don't understand why the following code doensn't work
+        // Don't understand why the following code doesn't work
         /*
         String phoneNumber = data.getCountryPhoneCode() + "0" + data.getPhoneNumber();
         String finalPhoneNumber = "+" + phoneNumber.replaceFirst("(\\d{2})(\\d{3})(\\d{3})(\\d{2})(\\d+)", "$1($2)$3-$4-$5");
